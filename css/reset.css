@@ -1,3 +1,25 @@
+:root {
+    /* Cores */
+    --color-primary: #333; /* Usado para Header e texto principal */
+    --color-secondary: #007bff; /* Azul, para botões primários/links */
+    --color-success: #28a745; /* Verde, para preço e botão de envio */
+    --color-danger: #dc3545; /* Vermelho, para botões de exclusão */
+    --color-background: #f4f4f4; /* Fundo principal */
+    --color-card-bg: white;
+
+    /* Espaçamento e Borda */
+    --spacing-default: 10px;
+    --spacing-large: 20px;
+    --border-radius: 5px;
+}
+
+/* RESET */
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:Arial,sans-serif;background:#f4f4f4}
-.card{border:1px solid #ccc;padding:10px;margin:10px;}
+
+/* Estilos Globais */
+body{
+    font-family: Arial, sans-serif;
+    background: var(--color-background);
+    color: var(--color-primary);
+    line-height: 1.6;
+}
