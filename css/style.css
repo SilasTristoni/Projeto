@@ -1,0 +1,33 @@
+/* Conteúdo de js/app.css */
+header{background-color:#333;color:#fff;padding:20px;}
+nav ul{list-style:none;display:flex;gap:10px;}
+.card .title{font-size:18px;}
+.price{color:green;}
+
+/* Conteúdo de js/style.css (que era CSS) */
+/* Não havia conteúdo CSS em js/style.css, apenas JS. */
+
+/* Estilos adicionais para o formulário de contato */
+#fale {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#fale input, #fale textarea, #fale button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#fale button {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
