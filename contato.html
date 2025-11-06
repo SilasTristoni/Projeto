@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Contato</title>
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="js/style.css">
+    <meta charset="utf-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Fale Conosco</h1>
-<form id="fale" action="">
-<input type="text" name="nome" id="nome">
-<input type="email" name="email" id="email">
-<textarea name="mensagem" id="mensagem"></textarea>
-<button onclick="enviarContato()">Enviar</button>
-</form>
-<script src="js/utils.js"></script>
-<script src="js/app.css"></script>
+    <div class="contact">
+        <h1>Fale Conosco</h1>
+        <form id="fale" action="">
+            <input type="text" name="nome" id="nome" placeholder="Insira seu Nome...">
+            <input type="email" name="email" id="email" placeholder="Insira seu Email...">
+            <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="js/utils.js"></script>
 </body>
 </html>
